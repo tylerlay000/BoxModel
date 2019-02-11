@@ -1,0 +1,37 @@
+p{
+    font-size:20px:;
+}
+
+div{
+    background-color:skyblue;
+    color:rgb(11, 87, 226);
+    display:inline-block;
+}
+
+#nopadding{
+    padding:0;
+}
+
+#padding{
+    padding:50px;
+}
+
+#topPadding{
+    padding-top: 50px;
+}
+#rightPadding{
+    padding-right: 50px;
+}
+#bottomPadding{
+    padding-bottom: 50px;
+}
+#leftPadding{
+    padding-left: 50px;
+}
+/*Order is always TOP RIGHT BOTTOM LEFT*/
+
+#mixedPadding{
+    padding-top: 10px 40px 100px 20px;
+}
+
+
