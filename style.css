@@ -34,4 +34,36 @@ div{
     padding-top: 10px 40px 100px 20px;
 }
 
+#dottedBorder{
+    border:3px wavy navy;
+}
 
+#dashedBorder{
+    border:2px dashed red;
+}
+
+#soldBorder{
+    border:4px dashed yellow;
+}
+#doubleBorder{
+    border:3px dashed green;
+}
+
+#grooveBorder{
+    border:4px groove orange;
+}
+
+#ridgeBorder{
+    border:5px ridge purple;
+}
+
+#outsetBorder{
+    border:10px outset grey;
+}
+
+/*TOP RIGHT BOTTOM LEFT*/
+#mixedBorder{
+    border-color:chartreuse;
+    border-style:groove outset inset ridge;
+    border-width:20px;
+}
