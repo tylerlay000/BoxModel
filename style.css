@@ -61,6 +61,10 @@ div{
     border:10px outset grey;
 }
 
+#insetBorder{
+    border: 10px inset grey;
+}
+
 /*TOP RIGHT BOTTOM LEFT*/
 #mixedBorder{
     border-color:chartreuse;
