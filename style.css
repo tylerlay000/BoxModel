@@ -35,18 +35,18 @@ div{
 }
 
 #dottedBorder{
-    border:3px wavy navy;
+    border:3px dotted navy;
 }
 
 #dashedBorder{
     border:2px dashed red;
 }
 
-#soldBorder{
-    border:4px dashed yellow;
+#solidBorder{
+    border:4px solid yellow;
 }
 #doubleBorder{
-    border:3px dashed green;
+    border:10px double green;
 }
 
 #grooveBorder{
@@ -70,4 +70,39 @@ div{
     border-color:chartreuse;
     border-style:groove outset inset ridge;
     border-width:20px;
+}
+
+.row1{
+    width:25%;
+    border:2px inset black;
+    padding:5px;
+    text-align:center;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.row2{
+    width:30%;
+    border:2px solid black;
+    margin-top:20px;
+}
+
+#center{
+    display:block;
+    width:25%;
+    margin:auto;
+    margin-top:25px;
+    margin-bottom:50px;
+}
+
+#perLeftMargin{
+    height:200px;
+    width:35%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+#perRightMargin{
+    height:200px;
+    width:35%;
 }
