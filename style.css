@@ -106,3 +106,37 @@ div{
     height:200px;
     width:35%;
 }
+
+.defaultPadding{
+    padding:10px;
+
+}
+
+.defaultMargin{
+    margin:0px 30px;
+
+}
+
+.defaultBorder{
+    border:3px ridge fuchsia;
+
+}
+
+/*Slects elements inside other elements*/
+/*section h3{
+    font-size:40px;
+}
+
+section header h3{
+    font-size:30px;
+
+}
+
+section article p{
+    color:goldenrod;
+}*/
+
+/*Select multiple elements*/
+section h3,section p{
+    color:goldenrod;
+}
